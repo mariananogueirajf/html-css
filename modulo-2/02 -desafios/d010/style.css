@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD680,#123f26);
+    background-attachment: fixed;
+    border: 1px;
+    padding: 0px;
+    margin: auto;
+}
+header > h1 {
+    font-family:"Bebas Neue", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 1px;    
+
+}
+header > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+nav {
+    font-size: 11px;
+    background-color: rgb#123f26;
+    padding: 7px;          
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    background-color: #123f2670;
+    padding: 6px;
+
+}
+#assunto > h1 {
+        font-family: 'android', sans-serif;
+        color: #1a5a37; 
+        background-color: white;      
+        padding: 5px;
+        margin: 0px; 
+}
+#assunto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    background-color: white;      
+    padding: 5px;
+    margin: 0px 300px; 
+    text-align: justify;
+}
+#historia {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    background-color: white;      
+    padding: 5px;
+    margin: 0px 300px; 
+    text-align: justify;
+}
+#historia > h1 {
+    font-family: 'android', sans-serif;
+    color: #1a5a37; 
+    font-size: 20px;
+    background-color: white;      
+    padding: 5px;
+    margin: 0px; 
+    text-align: justify;
+}
+.subtitulo {
+    font-family: 'android', sans-serif;
+    color: #1a5a37; 
+    font-size: 20px;
+    background-color: white;      
+    padding: 5px;
+    margin: 0px; 
+    text-align: justify;
+}
+
+
