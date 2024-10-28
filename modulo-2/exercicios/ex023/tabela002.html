@@ -11,7 +11,7 @@
         }
 
         table {
-            width: 500px;
+            width: 400px;
             border-collapse: collapse;
         }
 
@@ -20,8 +20,16 @@
             padding: 10px;
         }
 
+        caption {
+                font-size: 1.2em;
+                font-weight: bold;
+                padding: 10px;
+                background-color: lightgray;
+                border: 1px solid black;
+        }
+
         thead, tfoot {
-            background-color: grey;
+            background-color: rgb(39, 39, 39);
             color: white;
         }
 
@@ -35,6 +43,7 @@
     <!--
     ANATOMIA PARA TABELAS GRANDES
     TABLE
+        CAPTION
         THEAD
             TR, TD, TH
         TBODY
@@ -44,10 +53,11 @@
     -->
 
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -163,7 +173,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>212.583.720</strong></td>
             </tr>
         </tfoot>
