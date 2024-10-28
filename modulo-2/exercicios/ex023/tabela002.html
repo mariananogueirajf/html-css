@@ -13,6 +13,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,6 +32,20 @@
         thead, tfoot {
             background-color: rgb(39, 39, 39);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(39, 39, 39);
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n*/
+            background-color: lightgray;
         }
 
         td.num {
@@ -53,7 +68,7 @@
     -->
 
     <table>
-        <caption>População das Unidades Federativas do Brasil</caption>
+        <caption>População das Unidades Federativas do Brasil - 2024</caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -178,5 +193,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim sapiente voluptatum ducimus animi dignissimos corrupti odio voluptatem unde expedita minus, doloremque, quibusdam saepe, culpa quis qui ipsa atque similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque tempore tenetur nulla amet iste, sequi ipsa velit quisquam eligendi molestias non, repellendus error delectus, sint corporis iure odit assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus rem quasi eveniet ex atque facilis dolores vel, laborum facere! Sapiente voluptas repudiandae ipsum voluptatum? Beatae velit aliquid quae at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quos numquam, maiores laborum molestiae fugiat consectetur dolorum soluta, aperiam unde sunt voluptate ea harum eveniet magnam voluptas laudantium ipsam sint!</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim sapiente voluptatum ducimus animi dignissimos corrupti odio voluptatem unde expedita minus, doloremque, quibusdam saepe, culpa quis qui ipsa atque similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque tempore tenetur nulla amet iste, sequi ipsa velit quisquam eligendi molestias non, repellendus error delectus, sint corporis iure odit assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus rem quasi eveniet ex atque facilis dolores vel, laborum facere! Sapiente voluptas repudiandae ipsum voluptatum? Beatae velit aliquid quae at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quos numquam, maiores laborum molestiae fugiat consectetur dolorum soluta, aperiam unde sunt voluptate ea harum eveniet magnam voluptas laudantium ipsam sint!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim sapiente voluptatum ducimus animi dignissimos corrupti odio voluptatem unde expedita minus, doloremque, quibusdam saepe, culpa quis qui ipsa atque similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque tempore tenetur nulla amet iste, sequi ipsa velit quisquam eligendi molestias non, repellendus error delectus, sint corporis iure odit assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus rem quasi eveniet ex atque facilis dolores vel, laborum facere! Sapiente voluptas repudiandae ipsum voluptatum? Beatae velit aliquid quae at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quos numquam, maiores laborum molestiae fugiat consectetur dolorum soluta, aperiam unde sunt voluptate ea harum eveniet magnam voluptas laudantium ipsam sint!</p>
 </body>
 </html>
